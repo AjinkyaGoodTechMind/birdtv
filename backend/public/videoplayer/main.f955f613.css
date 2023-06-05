@@ -59,3 +59,10 @@
   transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 /*# sourceMappingURL=main.f955f613.css.map*/
+
+@media screen and (max-width: 600px) {
+  .jwplayer {
+    width: 400px !important;
+    height: 300px !important;
+  }
+}

@@ -12,7 +12,7 @@ import { Box } from "@mui/system";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useSelector } from "react-redux";
 import ReactPlayer from "react-player";
-const jsFile = "main.7c3f7a06.js";
+const jsFile = "main.e746603b.js";
 
 export default function ContentUnits() {
   const { currentDomain } = useSelector((state) => state.sessionSlice);
@@ -30,7 +30,7 @@ export default function ContentUnits() {
    
       <script
         defer="defer"
-        src="http://52.91.168.25/public/videoplayer/${jsFile}"
+        src="https://birdtv.onrender.com/public/videoplayer/${jsFile}"
         playerId="${playerId}" 
         playlistId="${playlistId}"
         contentUnitId="${contentUnit}"
@@ -49,7 +49,7 @@ export default function ContentUnits() {
     `
       <script
         defer="defer"
-        src="http://52.91.168.25/public/videoplayer/${jsFile}"
+        src="https://birdtv.onrender.com/public/videoplayer/${jsFile}"
         playerId="${playerId}" 
         playlistId="${playlistId}"
         contentUnitId="${contentUnit}"

@@ -235,7 +235,7 @@ function App({ playerId, playlistId, contentUnitId }) {
 
   const getPlayer = async (id) => {
     await axios
-      .post(`http://52.91.168.25/api/player/getPlayerById`, { playerId: id })
+      .post(`https://birdtv.onrender.com/api/player/getPlayerById`, { playerId: id })
       .then(({ data }) => {
         console.log("data", data);
         setGeneral(data[0].generalSettings);
@@ -250,7 +250,7 @@ function App({ playerId, playlistId, contentUnitId }) {
 
   const getPlaylist = async (id) => {
     await axios
-      .post(`http://52.91.168.25/api/playlist/getPlaylistById`, { playlistId: id })
+      .post(`https://birdtv.onrender.com/api/playlist/getPlaylistById`, { playlistId: id })
       .then(({ data }) => {
         if (data[0].mrss) {
           const fetchFeed = async () => {
@@ -300,7 +300,7 @@ function App({ playerId, playlistId, contentUnitId }) {
   };
 
   const getContentUnit = async () => {
-    await axios.post(`http://52.91.168.25/api/contentUnit/getConentUnitById`, { contentUnitId }).then(({ data }) => {
+    await axios.post(`https://birdtv.onrender.com/api/contentUnit/getConentUnitById`, { contentUnitId }).then(({ data }) => {
       getPlayer(data[0].player._id);
       getPlaylist(data[0].playlist._id);
     });
@@ -360,7 +360,7 @@ function App({ playerId, playlistId, contentUnitId }) {
 
   return (
     <div className="App2" style={style}>
-      <link href="http://52.91.168.25/public/videoplayer/main.f955f613.css" rel="stylesheet" />
+      <link href="https://birdtv.onrender.com/public/videoplayer/main.f955f613.css" rel="stylesheet" />
       {/* <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod leo id nulla bibendum tincidunt. Nunc tincidunt sapien vel lacinia
         auctor. Praesent iaculis, eros eu rutrum congue, dolor enim eleifend augue, at tincidunt lorem velit ac lectus. Lorem ipsum dolor sit amet,

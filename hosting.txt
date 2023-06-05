@@ -1,0 +1,55 @@
+Ad Server Link: https://goodtechmind.store/
+username: admin
+password: Nand@321Kishore
+
+Website Link: http://52.91.168.25/login
+email: testUser1@gmail.com
+password: 12345678
+
+52.91.168.25
+
+username: ubuntu
+
+sudo apt install curl 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.bashrc   
+nvm install node 18
+
+sudo apt-get install nginx
+
+cd /etc/nginx/sites-available
+
+sudo nginx -t
+
+curl -i http:/52.91.168.25/nginx_status
+
+
+https://webscript.info/rizwan/how-to-deploy-your-reactjs-application-in-digital-ocean-cloud-server-5f26b6788e558
+
+location / {
+        proxy_pass http://localhost:4000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+npm install -g pm2
+
+pm2 list
+
+pm2 restart server
+
+pm2 reload server
+
+pm2 stop server
+
+pm2 delete server
+
+sudo systemctl reload nginx
+
+sudo systemctl restart nginx
+
+sudo systemctl status nginx
+

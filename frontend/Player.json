@@ -1,0 +1,71 @@
+{
+  "user_id": 32355,
+  "playerName": "Player1",
+  "generalSettings": {
+    "playerSize": {
+      "height": 600,
+      "width": 800,
+      "position": {
+        "top": 0,
+        "left": 0
+      }
+    },
+    "mobileSize": {
+      "height": 150,
+      "width": 300,
+      "position": {
+        "top": 0,
+        "left": 0
+      }
+    },
+    "autoPlay": false,
+    "pauseAdWhenOutOfView": false,
+    "continuePlaylist": true,
+    "loop": false,
+    "muted": false,
+    "pauseWhenOutOfView": true
+  },
+
+  "sticky": {
+    "stick": true,
+    "position": {
+      "top": 500,
+      "left": 100
+    },
+    "playerSize": {
+      "height": 300,
+      "width": 600
+    }
+  },
+
+  "adUnit": {
+    "actAsAdUnit": true,
+    "inSlide": false,
+    "position": "bottom-left"
+  },
+
+  "ads": {
+    "ads": true,
+    "preRoll": {
+      "preRoll": true,
+      "vastTag": ""
+    },
+    "postRoll": {
+      "postRoll": true,
+      "vastTag": ""
+    },
+    "midRoll": {
+      "midRoll": true,
+      "adTime": [
+        {
+          "offset": 10,
+          "vastTag": ""
+        },
+        {
+          "offset": 10,
+          "vastTag": ""
+        }
+      ]
+    }
+  }
+}

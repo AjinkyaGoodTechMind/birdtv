@@ -1,0 +1,16 @@
+https://www.brid.tv/instream-ad-units/
+https://www.brid.tv/outstream-ad-units/
+e.g => https://hindi.magzian.com/wp-content/uploads/vast-player/index.html
+
+
+server side ad insertion: https://veeplay.com/server-side-ad-insertion-apis/
+
+review ad server with dashboard: https://www.revive-adserver.com/features/ 
+
+https://magzian.com/wp-admin/
+username gtm
+password is QVXeSqF3xlW20@XwDJ%oFUg@
+
+lets encrypt
+
+Requested name 52.91.168.25 is an IP address. The Let's Encrypt certificate authority will not issue certificates for a bare IP address.

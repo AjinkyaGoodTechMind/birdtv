@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "ff589155-dd09-45fd-ac0e-63d36b0ccbb5",
+		"name": "VideoHosting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Uplaod adn Get video",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Nand Kishor",
+							"type": "default"
+						},
+						{
+							"key": "description",
+							"value": "bihar, india",
+							"type": "default"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://64.227.170.236/video/list/",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"list",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Video Delete and Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://64.227.170.236/video/<uuid.pk>",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"<uuid.pk>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Playlist get and post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://64.227.170.236/video/playlist/",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"playlist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "video Playlist update and delete",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://64.227.170.236/video/playlist/update/delete/1/",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"playlist",
+						"update",
+						"delete",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Video Player get and post",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://64.227.170.236/video/player/list/create",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"player",
+						"list",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Video Player update and Delete",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://64.227.170.236/video/player/update/delete/c698d83e-7494-481f-bcc5-b407810e5055/",
+					"protocol": "http",
+					"host": [
+						"64",
+						"227",
+						"170",
+						"236"
+					],
+					"path": [
+						"video",
+						"player",
+						"update",
+						"delete",
+						"c698d83e-7494-481f-bcc5-b407810e5055",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

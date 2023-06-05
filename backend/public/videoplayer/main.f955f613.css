@@ -1,0 +1,57 @@
+.video-containerTopLeft {
+  left: -100%;
+  position: fixed;
+  top: 20px;
+  transition: top 0.5s ease-out, left 0.5s ease-out;
+}
+.video-containerTopLeft.visible {
+  left: 1%;
+  top: 20px;
+}
+.video-containerTopRight {
+  position: fixed;
+  right: -100%;
+  top: 20px;
+  transition: top 0.5s ease-out, right 0.5s ease-out;
+}
+.video-containerTopRight.visible {
+  right: 1%;
+  top: 20px;
+}
+.video-containerBottomLeft {
+  bottom: 20px;
+  left: -100%;
+  position: fixed;
+  transition: bottom 0.5s ease-out, left 0.5s ease-out;
+}
+.video-containerBottomLeft.visible {
+  bottom: 20px;
+  left: 1%;
+}
+.video-containerBottomRight {
+  bottom: 20px;
+  position: fixed;
+  right: -100%;
+  transition: bottom 0.5s ease-out, right 0.5s ease-out;
+}
+.video-containerBottomRight.visible {
+  bottom: 20px;
+  right: 1%;
+}
+.video-inContent {
+  position: absolute;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+.video-inContent.visible {
+  position: static;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+/*# sourceMappingURL=main.f955f613.css.map*/

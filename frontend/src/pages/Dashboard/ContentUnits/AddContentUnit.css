@@ -1,0 +1,62 @@
+.addContentUnit-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.stepperContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.stepperMain {
+  display: flex;
+  flex: 1;
+}
+
+.stepperMain-step {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.playerSelect {
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.embedCode {
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.embedCodePre {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: normal;
+  font-size: 18px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed,
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: red !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: red !important;
+}

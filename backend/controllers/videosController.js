@@ -30,7 +30,7 @@ const videosController = {
     try {
       const video = req.file;
 
-      const filePath = `http://52.91.168.25/${video.destination}/${video.filename}`;
+      const filePath = `https://birdtv.onrender.com/${video.destination}/${video.filename}`;
 
       const videos = await VideoSchema.create({ userId: req.user._id, file: filePath, title: req.body.title, domain: req.body.domain });
 

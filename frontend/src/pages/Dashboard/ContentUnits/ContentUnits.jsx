@@ -68,7 +68,7 @@ export default function ContentUnits() {
    
       <script
         defer="defer"
-        src="http://52.91.168.25/public/videoplayer/${jsFile}"
+        src="https://birdtv.onrender.com/public/videoplayer/${jsFile}"
         playerId="${playerId}" 
         playlistId="${playlistId}"
         contentUnitId="${contentUnit}"
@@ -87,7 +87,7 @@ export default function ContentUnits() {
       `
       <script
       defer="defer"
-      src="http://52.91.168.25/public/videoplayer/${jsFile}"
+      src="https://birdtv.onrender.com/public/videoplayer/${jsFile}"
       playerId="${playerId}" 
       playlistId="${playlistId}"
       contentUnitId="${contentUnit}"
